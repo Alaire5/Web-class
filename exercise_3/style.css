@@ -1,0 +1,45 @@
+*{box-sizing: border-box;
+margin:0
+padding:0;
+}
+
+body{
+
+background-color: rgba(43, 211, 43, 0.438);
+font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+h1{
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color:rgb(8, 78, 21)
+
+}
+
+#journal{
+    background-color:rgba(216, 255, 110, 0.769)
+    color:aqua;
+    width: 500px;
+    padding: 100px;
+    position:relative;
+
+
+
+  
+
+}
+
+pic1.
+
+    position: absoulute;
+
+
+}
+   
+
+
+
+}
