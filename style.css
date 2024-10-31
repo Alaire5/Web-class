@@ -1,41 +1,288 @@
-p{
-    color:rgb(9, 104, 9);
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    font-style: italic;
-    text-align: right;
-}
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:100px;
-    color:lime;
-    /*margin-bottom 10px;*/
-    padding-bottom: 5px;
-    /*margin-top:0px;*/
-    padding-top: 0px;
-    margin: 50px 0 10px 0;
-    padding: 50px0 5px 0;
-    line-height: 60px;
-}
-h2{
-    color:rgba(19, 227, 231, 0.751)
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+
 }
 body{
-    background-color: blueviolet;
-    width: 1000px;
-    margin: 0 auto 0 auto;
+    background-color: rgba(231, 199, 144, 0.781);
+}
+p{
+    font-family: "Barlow", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25;
+}
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgb(101, 33, 4);
+    font-size: 40px;
     text-align: center;
+    padding: 0 100px 0 100px;
+    margin: 50px auto 50px auto;
+    
+    width:80%;
+    border-style:double;
+    border-width: 30px;
+    border-color:rgb(48, 14, 1);
+
+    color:rgb(48, 14, 1);
+    box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+}
+.alvinaileylogo{ 
+background-image:url(aileyweb_images/alvinailey_logo.jpeg);
+width: 400px;
+height: 400px;
+background-repeat: no-repeat;
+background-size: contain;
+ margin:15px 15px;
+position: absolute;
+left:15%;
+bottom: 15%;
+z-index:10;
+
 
 }
-ul{
+ 
+
+h1{
+    font-size: 50;
+ font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+      
+}
+h2{
+ 
+    font-family: "Barlow Condensed", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+         
+}
+#intro{
+    background-color:rbg (199, 136, 36);
+    padding: 50px 150px 50px 150px;
+    Margin: 150px 25px 150px 25px;
+    display:flex;
+    position: relative;
+
+    
+}
+.Ailey{
+    text-align: center;
+    font-size: 80px;
+    padding: 15px 15px 15px 15px;
+    margin: 50px 50px 50px 50px;
+    background-color: rgb(103, 48, 21);
+    color:rgb(146, 2, 2);
+  width: 40%;
+ height:50vh;
+  border-color: maroon;
+  text-shadow: 2px 2px rgb(59, 3, 3);
+  box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+}
+#intro p{
+    font-size:20px;
+    padding: 50px  25px 50px 25px;
+    Margin: 100px 50px 100px 50px;
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:darkorange;
-    font-size:30px;
+   width:70%;
+   height: 125vh;
+    background-color: rgba(211, 163, 16, 0.906);
+    box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+    text-align: center;
+    
+}
+
+
+#content{
+    font-size: 20px;
+    padding: 50px 100px 50px 100px;
+    margin: 50px 75px 50px 75px; 
+    text-align: left;
+    background-color: rgba(154, 11, 11, 0.705);
+    box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+    position: relative;
+}
+.ourstory{
+    background-image: url(aileyweb_images/aileyweb_ourstory.jpg);
+    height:500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 
 }
-h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color:rgb(226, 13, 169);
+.training{
+background-image: url(aileyweb_images/aileyweb_training.jpg);
+height:500px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+
 }
+#visuals{
+    font-size: 40px;
+    background-color:rgba(114, 60, 21, 0.884);
+    padding: 15px 15px 15px 15px;
+    Margin: 25px 50px 25px 50px;
+    width:40%;
+    height:70px;
+    color:rgb(46, 18, 2);
+    border-color: rgb(46, 18, 2);;
+    border-style: solid;
+    border-width: 3px;
+
+    position: absolute;
+ right:50%;
+ bottom:95%;
+
+}
+
+#Menus{
+   
+    padding: 50px 100px 50px 100px;
+    margin: 50px 75px 100px 75px; 
+    width: 90%;
+    
+   
+    background-color:rgba(48, 7, 86, 0.676);
+    box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+ position:relative;
+    font-size:20px;    
+    padding:50px 100px 50px 100px;
+    margin:50px 75px 50px 75px; 
+    text-align:left;
+    background-color:rgba(48, 7, 86, 0.676);
+    box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+}
+
+#Navigation{
+    font-size: 40px;
+    background-color:rgba(114, 60, 21, 0.884);
+    padding: 15px 15px 15px 15px;
+    Margin: 25px 50px 25px 50px;
+    width:40%;
+    height:70px;
+    color:rgb(46, 18, 2);
+    border-color: rgb(46, 18, 2);;
+    border-style: solid;
+    border-width: 3px;
+    position: absolute;
+ right:50%;
+ bottom:85%;
+}
+
+
+.section4{
+    display: flex;
+    direction: columns;
+    width: 80%;
+    font-size: 30px;
+    padding: 25px 25px 25px 25px;
+    margin: 25px 50px 25px 50px; 
+    text-align: left;
+    background-color:rgba(71, 158, 8, 0.744);
+     box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+    position: relative;
+}
+
+
+    .aileywebvideo{
+    margin: 25px 25px 25px 25px;
+   
+}
+
+#interactives{
+font-size: 40px;
+background-color:rgba(114, 60, 21, 0.884);
+padding: 15px 15px 15px 15px;
+Margin: 25px 50px 25px 50px;
+width:40%;
+height: 70px;
+color:rgb(46, 18, 2);
+border-color: rgb(46, 18, 2);;
+border-style: solid;
+border-width: 3px;
+position:absolute;
+right:50%;
+bottom:95%;
+}
+
+.aileywebvideo{
+    margin: 100px 50px 100px 50px;
+ 
+}
+
+
+
+.section5{
+    font-size: 20px;
+    padding: 25px 50px 25px 50px;
+    margin: 25px 75px 25px 75px; 
+    text-align: left;
+    background-color:rgba(230, 155, 27, 0.744);
+    display: flex;
+    flex-direction: row;
+    margin: 25px 50px 25px 50px;
+    box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+    position: relative;
+
+
+}
+#Critic{
+    font-size: 40px;
+    background-color:rgba(114, 60, 21, 0.884);
+    padding: 15px 15px 15px 15px;
+    Margin: 25px 50px 25px 50px;
+    width:40%;
+    height:70px;
+    color:rgb(46, 18, 2);
+    border-color: rgb(46, 18, 2);;
+    border-style: solid;
+    border-width: 3px;
+    position:absolute;
+    right:50%;
+    bottom:90%;
+    }
+
+
+
+.aileyposter1{
+    background-image: url(aileyweb_images/Aileyposter1.jpg);
+    height: 400px;
+    width:33%; 
+    box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+
+}
+.aileyposter2{
+    background-image: url(aileyweb_images/Aileyposter2.jpg);
+   height: 400px;
+   width: 33%;
+    box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.aileyposter3{
+    background-image: url(aileyweb_images/aileyposter3.jpg);
+    height: 400px;
+    width:33%;
+    box-shadow: 2px 2px 5px rgba(59, 35, 2, 0.909);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5%;
+
+}
+
+
