@@ -1,0 +1,229 @@
+*{
+    padding:0;
+    margin:0;
+box-sizing: 0;;
+}
+body{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #title{
+    background-image: url(story-images/pexels-wayne-evans-567186.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+
+  }
+  #titlecontainer{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    height:100vh;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.502);
+  }
+  h1{
+   color: white;
+    font-size: 7vw; /* Makes font responsive */
+  }
+  h2{
+  color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .btn{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: brown;
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: all 0.5s;
+  }
+.btn:hover{
+    background-color: black;
+    color:yellow;
+
+}
+/*PAGE1*/
+#page1{
+    background-color: black;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width:100%;
+    height:100vh;
+
+    }
+    
+    .div1 
+    { grid-area: 1 / 1 / 2 / 3; 
+    display: flex;
+align-items: center;
+justify-content: center;/*center works bc there is only one childe*/
+padding: 0 5%;
+
+}
+    .div2 
+    { grid-area: 2 / 1 / 3 / 2; 
+    background-image:url(story-images/pexels-juan-mendez-3075517.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    .div3 
+    { grid-area: 2 / 2 / 3 / 3; 
+    background-image: url(story-images/pexels-rdne-stock-project-8865431.jpg);
+background-size: cover;
+background-position: top;}
+P{
+    color:white;
+    font-size:24px;
+ 
+}
+.him{
+  background-color: rgba(3, 3, 70, 0.5);
+    color:white;
+    text-align: center;
+    text-decoration: none;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:100%; /*100% of where it is inside of, the achor tag is the whole box therfore the whole box is clickable*/
+
+
+}
+.him:hover{
+background-color: rgba(0, 0, 0, 0.5);
+}
+h3{
+    font-style: italic;
+    font-size: 5vw;
+
+}
+.her{
+  background-color: rgba(220, 0, 0, 0.5);
+    color:white;
+    text-align: center;
+    text-decoration: none;
+  justify-content: center;
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column; 
+  /*100% of where it is inside of, the achor tag is the whole box therfore the whole box is clickable*/
+
+}
+footer {
+background-color: grey;
+width:100%;
+text-align: center;
+position: fixed;
+bottom:0;
+z-index:999;
+}
+footer p{
+    color:lightgray;
+    text-decoration: none;
+}
+footer:hover{
+    color:yellow;
+}
+
+#page2-him .parent, #page3-him .parent, #page2-her .parent, #page3-her .parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  #page2-him .div1, #page3-him .div1, #page2-her .div1, #page3-her .div1
+  { 
+  
+    grid-area: 1 / 1 / 2 / 2; 
+    background-color: black;
+    font-size: 24px;
+    color:white;
+    line-height: 1.5;
+    padding: 0 5%;
+  flex-direction: column;
+  }
+  #page2-him .div2, #page3-him .div2, #page2-her .div2, #page3-her .div2 {
+     grid-area: 1 / 2 / 2 / 3; 
+     background-image: url(story-images/pexels-francesco-ungaro-2705357.jpg);
+     background-size: cover;
+     background-position: center;
+  }
+  
+  i{
+    color:green;
+    font-style: italic;
+
+  }
+  #page3-him .div2{
+    background-image: url(story-images/pexels-davide-locatelli-2768770.jpg);
+  }
+  audio{
+    margin-bottom: 100px;
+  }
+
+#endpage{
+  background-image: url(story-images/pexels-jorgearturo-andrade-921025.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#endpage #titlecontainer p {
+
+  padding:0 10%;
+ 
+
+}
+#endpage #titlecontainer{
+  background-color: rgba(0, 0, 0, 0.774);
+}
+#page-her .div2{
+  background-image: url(story-images/pexels-aleksandar-pasaric-3123827.jpg);
+
+}
+@media screen and (max-width: 800px){
+
+  h1{
+    font-size: 30px;
+    
+  }
+  h2{
+    font-size: 16px;
+  }
+  p{ font-size: 16px;
+  }
+
+  #page2-him .div2, #page3-him .div2, 
+  #page2-her .div2, #page3-her .div2 {
+    font-size: 16px;
+  }
+  audio{
+    width: 70%;
+  }
+}
